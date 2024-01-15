@@ -463,13 +463,13 @@ section i{
 @media  (max-width: 600px){
 
     .container-contact{
-        height: 800px;
+        height: 1000px;
     }
     
     .header-contact{
         position: absolute;
         left: 0;
-        top:20%;
+        top:2%;
         width: 100%;
     }
     .empty{

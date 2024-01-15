@@ -334,7 +334,7 @@ h2{
     text-align: center;
     width: 75%;
     left: 12%;
-    top: -1rem;
+    top: -2rem;
 }
 .header-contact h1{
     font-size: 35pt;
@@ -441,7 +441,7 @@ section i{
     background-color: grey;
     border: 2px solid grey;
     font-size: 18px;
-    width: 50%;
+    width: 30rem;
     height: 40px;
     margin-top: -5px;
 }
@@ -472,12 +472,18 @@ section i{
         top:2%;
         width: 100%;
     }
+    .content{
+        left: 2%;
+        text-align: center;
+        margin-top: 10%;
+    }
     .empty{
         width: 100%;
         height: 2vh;
 
     }
     .form{
+        width: 12rem;
         position: absolute;
         top: 60vh;
         bottom: 50%;
@@ -487,8 +493,9 @@ section i{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 0;
-        margin-top: 45vh;
-        margin-left: 10vh;
+        margin-top: 50vh;
+        margin-left: 1vh;
+        top: 20px;
     }
     .content section{
         margin-top: 0vh;

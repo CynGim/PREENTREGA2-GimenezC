@@ -226,6 +226,19 @@ h2{
     -webkit-text-stroke: 1px black;
      color: wheat;
 }
+
+@media (max-width: 600px) {
+    .d-img{
+        margin-top: 30px;
+        text-align: center;
+
+        width: auto;
+        height: 60vh;
+    }
+    .carousel-caption{
+        margin-bottom: 20%;
+    }
+} 
 /*html expositio bootstrap grid desktop mobile*/
 .video{
     display: flex;
